@@ -2,7 +2,7 @@
 echo "This is a test"
 echo "fools are fools"
 
-[ -f lib.sh ] && source lib.sh
+[ -f ./lib.sh ] && .  ./lib.sh
 
 # more stuff
 echo fat 
