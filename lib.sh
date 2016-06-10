@@ -9,3 +9,10 @@ batman() {
 	echo "In a galaxy far far away ..."
 	sleep 1
 }
+
+catwoman(){
+	echo "I hate batman ... meow"
+	echo "meow"
+	sleep 1
+	echo "meow"
+}
