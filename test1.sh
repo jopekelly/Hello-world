@@ -2,11 +2,7 @@
 echo "This is a test"
 echo "fools are fools"
 
-function catman {
-	# this is a sub -- whatever that is
-	echo "I am in  a sub"
-	sleep 2
-}
+[ -f lib.sh ] && source lib.sh
 
 # more stuff
 echo fat 
@@ -15,5 +11,13 @@ sleep 3
 catman
 echo "The sea is blue and far away"
 
+batman
+
+echo "The caped crusader"
+
+batman
+
+echo "tape is tape"
+catman
 exit 0
 
