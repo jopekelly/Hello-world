@@ -19,5 +19,7 @@ batman
 
 echo "tape is tape"
 catman
+echo "and the femme fatale enters"
+catwoman
 exit 0
 
